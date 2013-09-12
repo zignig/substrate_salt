@@ -4,3 +4,4 @@ base:
     - rabbitmq
     - redis
     - couchdb
+    - substrate
