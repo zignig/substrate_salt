@@ -7,4 +7,6 @@ mongodb:
   pkg:
     - installed
 
-
+pymongo:
+  pip:
+    - installed
