@@ -1,5 +1,6 @@
 base:
   '*':
+    - base
     - webserver
     - rabbitmq
     - redis
