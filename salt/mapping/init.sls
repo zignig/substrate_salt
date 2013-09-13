@@ -9,3 +9,7 @@ mongodb:
 pymongo:
   pip:
     - installed
+
+web.py:
+  pip:
+    - installed
