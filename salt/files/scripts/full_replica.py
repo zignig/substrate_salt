@@ -3,7 +3,7 @@
 import json,requests 
 
 source_server = 'http://couch.bl3dr.com'
-target_server = 'http://10.251.10.176:5984'
+target_server = 'http://127.0.0.1:5984'
 
 s = requests.session()
 
@@ -34,6 +34,7 @@ if r.status_code == 200:
 			doc['source'] = source_server+'/'+dbs[i]
 			doc['target'] = i
 			doc['create_target'] = True
+			doc['user_ctx'] = {"name":"admin","roles":['_admin']}
 			repl[i] = doc
 		for i in repl.keys():
 			create_repl(repl[i])		
