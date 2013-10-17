@@ -6,4 +6,3 @@ base:
     - redis
     - couchdb
     - substrate
-    - mapping
