@@ -6,3 +6,4 @@ base:
     - redis
     - couchdb
     - substrate
+    - nodejs 

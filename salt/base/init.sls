@@ -8,4 +8,12 @@ requests:
 
 web.py:
   pip:
-    - intsalled
+    - installed
+
+tree:
+  pkg:
+    - installed
+
+ssh:
+  pkg:
+    - installed
