@@ -7,3 +7,4 @@ base:
     - couchdb
     - substrate
     - nodejs 
+    - thingtracker
