@@ -8,3 +8,4 @@ base:
     - substrate
     - nodejs 
     - thingtracker
+    - rtorrent

@@ -10,7 +10,7 @@ extract-nodejs:
     - names:
       - tar zxf node-v0.10.20.tar.gz
     - run
-    - require:
+    - watch:
       - file: nodejs-0.10.20
 
 configure-nodejs:
@@ -21,5 +21,5 @@ configure-nodejs:
       - make 
       - make install
     - run
-    - require:
+    - watch:
       - cmd: extract-nodejs

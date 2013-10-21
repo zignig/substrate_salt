@@ -21,5 +21,5 @@ ssh:
 /srv/salt/files/nightly.sh:
   cron.present:
     - user: root
-    - minute: random
+    - minute: 10 
     - hour: 0  
