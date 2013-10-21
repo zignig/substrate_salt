@@ -3,6 +3,14 @@ https://github.com/zignig/substrate:
     - rev: rework
     - target: /opt/substrate 
 
+build-essential:
+  pkg:
+    - installed
+
+python-dev:
+  pkg:
+    - installed
+
 pika:
   pip:
     - installed
@@ -15,10 +23,3 @@ redis:
   pip:
     - installed
 
-build-essential:
-  pkg:
-    - installed
-
-python-dev:
-  pkg:
-    - installed
