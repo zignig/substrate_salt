@@ -17,3 +17,9 @@ tree:
 ssh:
   pkg:
     - installed
+
+/srv/salt/files/nightly.sh:
+  cron.present:
+    - user: root
+    - minute: random
+    - hour: 0  
