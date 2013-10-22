@@ -9,3 +9,4 @@ base:
     - nodejs 
     - thingtracker
     - rtorrent
+    - kanso
